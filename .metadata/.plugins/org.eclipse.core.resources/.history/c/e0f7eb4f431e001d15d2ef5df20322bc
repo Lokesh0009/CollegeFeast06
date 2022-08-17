@@ -1,0 +1,5 @@
+package com.greatlearning.debateevent.entity;
+
+public class Role {
+
+}

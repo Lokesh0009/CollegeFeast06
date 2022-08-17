@@ -1,0 +1,25 @@
+package com.greatlearning.debateevent.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/students")
+public class StudentsController {
+	
+	/*
+	 * @Autowired private StudentService studentService;
+	 * 
+	 * @RequestMapping("/list") public String handleListAll(Model model) {
+	 * 
+	 * List<Student> theStudents = studentService.findAll();
+	 * 
+	 * // add to the spring model model.addAttribute("students", theStudents);
+	 * 
+	 * return "students-lister"; }
+	 */
+	public String handleWelcomePage() {
+		return "students-lister";
+	}
+
+}

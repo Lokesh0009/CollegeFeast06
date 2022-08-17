@@ -1,0 +1,5 @@
+package com.greatlearning.debateevent.repository;
+
+public class StudentRepository {
+
+}
